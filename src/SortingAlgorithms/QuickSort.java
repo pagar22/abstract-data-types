@@ -1,4 +1,4 @@
-package AE1;
+package SortingAlgorithms;
 
 import java.io.IOException;
 import java.nio.file.Files;
