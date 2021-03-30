@@ -27,7 +27,7 @@ public class QuickSort {
         A[j] = temp;
     }
 
-//PART 1 A------------------------------------------------------------------------------
+//PART 1------------------------------------------------------------------------------
     /**
      * Basic QUICKSORT recursive algorithm
      */
@@ -39,7 +39,7 @@ public class QuickSort {
         }
     }
 
-//PART 1 B-------------------------------------------------------------------------------
+//PART 2-------------------------------------------------------------------------------
     /**
      * calls QUICKSORT only if no. of elements in array are >= some 'k'
      * end index - start index + 1 = number of elements in array >= 'k'
@@ -68,7 +68,7 @@ public class QuickSort {
         }
     }
 
-//PART 1 C---------------------------------------------------------------------------------
+//PART 3---------------------------------------------------------------------------------
     /**
      *Calls a helper function, 'median', that finds the median of 3 and replaces it with
      * the last element and then calls partition on the reorganized array
@@ -94,7 +94,7 @@ public class QuickSort {
         swap(A, mid, r);
     }
 
-//PART 1 D-----------------------------------------------------------------------------------
+//PART 4-----------------------------------------------------------------------------------
     /**
      *Calls a helper function, 'partitionThreeWay' that replaces the original partition function
      */
@@ -124,7 +124,7 @@ public class QuickSort {
         return new int[]{lo-1, hi+1};
     }
 
-//PART 3--------------------------------------------------------------------------------
+//PATHOLOGICAL INPUT--------------------------------------------------------------------------------
     /**
      *algorithm used to generate pathological input
      * makes quicksort upset with its ridiculous demands
