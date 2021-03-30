@@ -120,8 +120,6 @@ public class DynamicSetBST<Item>{
         return t;
     }
 
-//Part 1d ---------------------------------------------------------------------------------------
-
     public DynamicSetBST unionButBetter(DynamicSetBST t){
         DynamicSetBST union = new DynamicSetBST();
         Node[] a = new Node[this.setSize()];
@@ -176,8 +174,6 @@ public class DynamicSetBST<Item>{
         node.right = arrayToBST(arr, mid+1, end);
         return node;
     }
-
-//end of Part 1d--------------------------------------------------------------------------------
 
     //intersection of two sets
     public DynamicSetBST<Item> intersection(DynamicSetBST t){
