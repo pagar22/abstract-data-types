@@ -1,4 +1,4 @@
-package AE2;
+package ADT;
 
 public class DynamicSetDLL<Item>{
 

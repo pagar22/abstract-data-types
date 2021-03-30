@@ -1,4 +1,4 @@
-package AE2;
+package ADT;
 
 public class DynamicSetBST<Item>{
     public Node root;
